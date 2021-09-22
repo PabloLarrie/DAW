@@ -1,0 +1,6 @@
+/home/pablo/DAW/Practico/Programación A/UFI1/bin/Debug/UFI1.exe
+/home/pablo/DAW/Practico/Programación A/UFI1/bin/Debug/UFI1.pdb
+/home/pablo/DAW/Practico/Programación A/UFI1/obj/Debug/UFI1.csprojAssemblyReference.cache
+/home/pablo/DAW/Practico/Programación A/UFI1/obj/Debug/UFI1.csproj.CoreCompileInputs.cache
+/home/pablo/DAW/Practico/Programación A/UFI1/obj/Debug/UFI1.exe
+/home/pablo/DAW/Practico/Programación A/UFI1/obj/Debug/UFI1.pdb
