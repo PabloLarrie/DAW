@@ -4,3 +4,9 @@
 /home/pablo/DAW/Practico/Programación A/UFI1- Programación Estructurada/obj/Debug/UFI1- Programación Estructurada.csproj.CoreCompileInputs.cache
 /home/pablo/DAW/Practico/Programación A/UFI1- Programación Estructurada/obj/Debug/UFI1- Programación Estructurada.exe
 /home/pablo/DAW/Practico/Programación A/UFI1- Programación Estructurada/obj/Debug/UFI1- Programación Estructurada.pdb
+/home/larrie/DAW/Proyectos/Programación A/UFI1- Programación Estructurada/obj/Debug/UFI1- Programación Estructurada.exe
+/home/larrie/DAW/Proyectos/Programación A/UFI1- Programación Estructurada/obj/Debug/UFI1- Programación Estructurada.pdb
+/home/larrie/DAW/Proyectos/Programación A/UFI1- Programación Estructurada/bin/Debug/UFI1- Programación Estructurada.exe
+/home/larrie/DAW/Proyectos/Programación A/UFI1- Programación Estructurada/bin/Debug/UFI1- Programación Estructurada.pdb
+/home/larrie/DAW/Proyectos/Programación A/UFI1- Programación Estructurada/obj/Debug/UFI1- Programación Estructurada.csprojAssemblyReference.cache
+/home/larrie/DAW/Proyectos/Programación A/UFI1- Programación Estructurada/obj/Debug/UFI1- Programación Estructurada.csproj.CoreCompileInputs.cache
