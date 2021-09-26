@@ -12,6 +12,7 @@ namespace UFI1
 
             // Mi propuesta //
             
+            
             int resultado = 0;
             int[] numerosNaturales = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
             foreach (var numero in numerosNaturales)
@@ -43,16 +44,15 @@ namespace UFI1
             int[] numerosNaturales2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
             Console.WriteLine(numerosNaturales2.Sum());
 
-        
 
             // CALCULA LA SUMA DE LOS INPUTS //
 
             // Mi propuesta //
 
             List<int> listaNumeros = new List<int>();
-            // Console.WriteLine("Indique el núnero de dígitos que quiere verificar:");
-            // int indice = Convert.ToInt32(Console.ReadLine());
-            int indice = 10;
+            Console.WriteLine("Indique el núnero de dígitos que quiere verificar:");
+            int indice = Convert.ToInt32(Console.ReadLine());
+            // int indice = 10;
 
             while (listaNumeros.Count < indice)
             {
@@ -61,7 +61,8 @@ namespace UFI1
                 listaNumeros.Add(numParaAñadir);    
             }
             double total = listaNumeros.Sum();
-            Console.WriteLine($"Su lista contiene {listaNumeros.Count} elementos, y su valor es de {total}"); 
+            Console.WriteLine($"Su lista de {listaNumeros.Count} elementos tiene un valor de {total} y una media de " +
+                              $"{total/indice}"); 
             
             // Lo que supongo que nos piden //
 
@@ -123,6 +124,7 @@ namespace UFI1
             Console.WriteLine($"El resultado de {n1} - {n2} es: {n1 - n2}");
             Console.WriteLine($"El resultado de {n1} * {n2} es: {n1 * n2}");
             Console.WriteLine($"El resultado de {n1} / {n2} es: {n1 / n2}"); 
+            
         }
         
     }
