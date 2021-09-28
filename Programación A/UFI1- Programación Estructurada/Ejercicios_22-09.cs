@@ -8,28 +8,13 @@ namespace UFI1
     {
         public static void Main(string[] args)
         {
-            List<int> lista_numeros = new List<int>();
-            Console.WriteLine("Indique el núnero de dígitos que quiere verificar:");
-            // int indice = Convert.ToInt32(Console.ReadLine());
-            int indice = 10;
-
-            while (lista_numeros.Count < indice)
-            {
-                Console.WriteLine($"Introduce el dato {lista_numeros.Count + 1}/{indice}:");
-                Int32 number_to_add = (Convert.ToInt32(Console.ReadLine()));
-                lista_numeros.Add(number_to_add);
-            }
-            double total = lista_numeros.Sum();
-            Console.WriteLine($"Su lista contiene {lista_numeros.Count} elementos, y su valor es de {total}");
-            
-            /*
             // SUMA PRIMEROS 10 NÚMEROS NATURALES //
 
             // Mi propuesta //
-
+            
             int resultado = 0;
-            int[] numeros_naturales = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-            foreach (var numero in numeros_naturales)
+            int[] numerosNaturales = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+            foreach (var numero in numerosNaturales)
             {
                 resultado += numero;
             }
@@ -55,40 +40,50 @@ namespace UFI1
 
             // Propuesta más "sencilla" (Atención, para utilizar el métido Sum hay que importar System.Linq) //
 
-            int[] numeros_naturales2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-            double total = numeros_naturales2.Sum();
-            Console.WriteLine(total);
+            int[] numerosNaturales2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+            Console.WriteLine(numerosNaturales2.Sum());
 
         
 
-            // SUMA PRIMEROS 10 NÚMEROS NATURALES //
+            // CALCULA LA SUMA DE LOS INPUTS //
 
             // Mi propuesta //
 
-            List<string> lista_numeros = new List<string>();
-            Console.WriteLine("Indique el núnero de dígitos que quiere verificar:");
-            int indice = Convert.ToInt32(Console.ReadLine());
-            while (lista_numeros.Count < indice)
+            List<int> listaNumeros = new List<int>();
+            // Console.WriteLine("Indique el núnero de dígitos que quiere verificar:");
+            // int indice = Convert.ToInt32(Console.ReadLine());
+            int indice = 10;
+
+            while (listaNumeros.Count < indice)
             {
-                Console.WriteLine($"Introduce el dato {lista_numeros.Count + 1}/{indice}");
-                lista_numeros.Add(Console.ReadLine());
+                Console.WriteLine($"Introduce el dato {listaNumeros.Count + 1}/{indice}:");
+                Int32 numParaAñadir = (Convert.ToInt32(Console.ReadLine()));
+                listaNumeros.Add(numParaAñadir);    
             }
-
-            Console.WriteLine($"Su lista contiene {lista_numeros.Count}, y su valor total es de {lista_numeros}");
-            Console.WriteLine("Hola tonto");
-
-
+            double total = listaNumeros.Sum();
+            Console.WriteLine($"Su lista contiene {listaNumeros.Count} elementos, y su valor es de {total}"); 
+            
             // Lo que supongo que nos piden //
 
+            Console.WriteLine($"Introduce el primer dato:");
             int indice1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Introduce el segundo dato:");
             int indice2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Introduce el tercer dato:");
             int indice3 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Introduce el cuarto dato:");
             int indice4 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Introduce el quinto dato:");
             int indice5 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Introduce el sexto dato:");
             int indice6 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Introduce el séptimo dato:");
             int indice7 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Introduce el octavo dato:");
             int indice8 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Introduce el noveno dato:");
             int indice9 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Introduce el último dato:");
             int indice0 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine(
@@ -120,14 +115,14 @@ namespace UFI1
             // Mi propuesta //
             
             Console.WriteLine($"Introduce el primer número");
-            int n_1 = Convert.ToInt32(Console.ReadLine());
+            int n1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Introduce el segundo número");
-            int n_2 = Convert.ToInt32(Console.ReadLine());
+            int n2 = Convert.ToInt32(Console.ReadLine());
             
-            Console.WriteLine($"suma {n_1 + n_2}");
-            Console.WriteLine($"resta {n_1 - n_2}");
-            Console.WriteLine($"multiplicación {n_1 * n_2}");
-            Console.WriteLine($"división {n_1 / n_2}"); */
+            Console.WriteLine($"El resultado de {n1} + {n2} es: {n1 + n2}");
+            Console.WriteLine($"El resultado de {n1} - {n2} es: {n1 - n2}");
+            Console.WriteLine($"El resultado de {n1} * {n2} es: {n1 * n2}");
+            Console.WriteLine($"El resultado de {n1} / {n2} es: {n1 / n2}"); 
         }
         
     }
