@@ -1,7 +1,11 @@
 import java.util.Scanner;
 
-public class Main {
+public class OperacionesAritméticas {
     public static void main (String[] args) {
+        /* A partir de dos valores enteros introducidos por el usuario, muestra por la consola el
+        resultado de las operaciones aritméticas: la suma, la resta, el producto y la división de
+        dichos valores. */
+
         int num1, num2, opcion;
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce el primer número: ");
