@@ -1,0 +1,77 @@
+body {
+  font-family: Tahoma, Verdana, sans-serif
+  }
+  
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #00aeef;
+  margin: -4px;
+  margin-top: -4px;
+  padding: 10px;  
+  color: #fff;
+}  
+
+h2 {
+  font-size: 35px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 20px;
+}
+
+table {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+th {
+  background-color: #00aeef;
+  color: #fff;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+
+}
+
+td {
+  margin: 5px;
+  font-size: 35px;
+}
+
+ul {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 40px;
+  padding-top: auto;
+}
+
+li.Arial {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+li.Comic {
+  font-family:'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+li.Georgia {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li.Impact {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li.Times {
+  font-family:'Times New Roman', Times, serif;
+}
+
+li.Verdana {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  border: 1px, solid, grey;
+}

@@ -19,7 +19,13 @@ public class Persona {
         nomina = false;
 
     }
-    public Persona(String nombre, String apellido1, String apellido2, String direccion, char genero, int edad, boolean nomina) {
+    public Persona(String nombre,
+                   String apellido1,
+                   String apellido2,
+                   String direccion,
+                   char genero,
+                   int edad,
+                   boolean nomina) {
         this.nombre = nombre;
         this.apellido1 = apellido1;
         this.apellido2 = apellido2;
@@ -41,7 +47,7 @@ public class Persona {
     public String getTipoGenero() {
         if (genero == 'H'){
         return "Este trabajador ";
-    }else if (genero == 'M'){
+        }else if (genero == 'M'){
          return "Esta trabajadora ";
         }else{
             return "Este trabajadore ";
@@ -106,9 +112,6 @@ public class Persona {
                 + getApellido2() + ".\n"
                 + getEdad() + "\n"
                 + getDireccion() + "\n"
-                + isNomina() + "\n"
-                ;
-
-
+                + isNomina() + "\n";
     }
 }
