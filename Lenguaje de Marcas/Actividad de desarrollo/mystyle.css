@@ -3,7 +3,7 @@ body {
   }
   
 h1 {
-  font-size: 50px;
+  font-size: auto;
   font-weight: bold;
   background-color: #00aeef;
   margin: -4px;
@@ -13,7 +13,7 @@ h1 {
 }  
 
 h2 {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: normal;
   text-align: center;
   padding-top: 20px;
@@ -31,18 +31,18 @@ th {
   color: #fff;
   margin: 5px;
   text-align: center;
-  padding: 10px;
-  font-size: 40px;
+  padding: 10px 37px;
+  font-size: 25px;
 
 }
 
 td {
   margin: 5px;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 ul {
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 20px;
   margin-top: 40px;
   padding-top: auto;
@@ -72,6 +72,9 @@ li.Verdana {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-form {
-  border: 1px, solid, grey;
+button {
+  background-color: #00aeef;
+  color: #fff;
+  border: none;
+  padding: 10px 9px;
 }

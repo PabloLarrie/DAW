@@ -1,0 +1,6 @@
+/home/larrie/DAW/Proyectos/Programación A/UFI1- Programación Estructurada/Pac_Desarrollo/Pac_Desarrollo/bin/Debug/Pac_Desarrollo.exe
+/home/larrie/DAW/Proyectos/Programación A/UFI1- Programación Estructurada/Pac_Desarrollo/Pac_Desarrollo/bin/Debug/Pac_Desarrollo.pdb
+/home/larrie/DAW/Proyectos/Programación A/UFI1- Programación Estructurada/Pac_Desarrollo/Pac_Desarrollo/obj/Debug/Pac_Desarrollo.csprojAssemblyReference.cache
+/home/larrie/DAW/Proyectos/Programación A/UFI1- Programación Estructurada/Pac_Desarrollo/Pac_Desarrollo/obj/Debug/Pac_Desarrollo.csproj.CoreCompileInputs.cache
+/home/larrie/DAW/Proyectos/Programación A/UFI1- Programación Estructurada/Pac_Desarrollo/Pac_Desarrollo/obj/Debug/Pac_Desarrollo.exe
+/home/larrie/DAW/Proyectos/Programación A/UFI1- Programación Estructurada/Pac_Desarrollo/Pac_Desarrollo/obj/Debug/Pac_Desarrollo.pdb
