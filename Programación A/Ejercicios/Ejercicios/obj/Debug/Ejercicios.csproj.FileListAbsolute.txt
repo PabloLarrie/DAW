@@ -1,6 +1,0 @@
-/home/pablo/DAW/Practico/Programación A/Ejercicios/Ejercicios/bin/Debug/Ejercicios.exe
-/home/pablo/DAW/Practico/Programación A/Ejercicios/Ejercicios/bin/Debug/Ejercicios.pdb
-/home/pablo/DAW/Practico/Programación A/Ejercicios/Ejercicios/obj/Debug/Ejercicios.csprojAssemblyReference.cache
-/home/pablo/DAW/Practico/Programación A/Ejercicios/Ejercicios/obj/Debug/Ejercicios.csproj.CoreCompileInputs.cache
-/home/pablo/DAW/Practico/Programación A/Ejercicios/Ejercicios/obj/Debug/Ejercicios.exe
-/home/pablo/DAW/Practico/Programación A/Ejercicios/Ejercicios/obj/Debug/Ejercicios.pdb
